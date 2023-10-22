@@ -1,0 +1,30 @@
++------------------------------------------------------------------------------------------------------------+
+|                                                                                                            |
+|                                  Welcome to eKart                                                          |
+|                                                                                                            |
++------------------------------------------------------------------------------------------------------------+
+|                         This is our help Menu for our Seller                                               |
++-----------------------------------------+------------------------------------------------------------------+
+|                 Task                    |                          Command                                 |
++-----------------------------------------+------------------------------------------------------------------+
+| Add Item to Inventory                   | ./main -seller -add -quantity <quantity> -price <price> -discount|
+|                                         |    <discount> -cat <category> -name <name>                       |
+| Delete Items from Inventory             | ./main -seller -del <itemId>                                     |
+| Update Name of Item                     | ./main -seller -u -name <id> <Name>                              |
+| Update Prices                           | ./main -seller -u -p <id> <price>                                |
+| Update Category of item                 | ./main -seller -u -c <id> <category>                             |
+| Update the count of item in inventory   | ./main -seller -u -count <id> <count>                            |
+| Update Discount of Item                 | ./main -seller -u -dis <id> <newDiscount>                        |
+| Show items with quantity less than x    | ./main -seller -show -b <x>                                      |
+| Show items with quantity above than x   | ./main -seller -show -a <x>                                      |
+| Search by Id                            | ./main -seller -s -id <itemId>                                   |
+| Search by name                          | ./main -seller -s -name <name>                                   |
+| Search by Category                      | ./main -seller -s -cat <category>                                |
+| Sort Items by price                     | ./main -seller -sort -price -lh/-hl                              |
+| List Categories                         | ./main -seller -l -categories                                    |
+| Search items above price x              | ./main -seller -s -a <price>                                     |
+| Search items below price x              | ./main -seller -s -b <price>                                     |
+| Show all items                          | ./main -seller -showall                                          |
+| Show Archive Table                      | ./main -seller -show -archive                                    |
+| Insert Data from CSV                    | ./main -seller -insertData                                       |
++-----------------------------------------+------------------------------------------------------------------+

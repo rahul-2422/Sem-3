@@ -1,0 +1,26 @@
+   +---------------------------------------------------------------------------------+
+   |                                                                                 |                    
+   |                           Welcome to eKart                                      |                    
+   |                                                                                 |
+   +---------------------------------------------------------------------------------+
+   |                   This is our help Menu for our Customer                        |
+   +-----------------------------------+---------------------------------------------+
+   |              Task                 |                  Command                    |
+   +-----------------------------------+---------------------------------------------+
+   | Add to cart                       | ./main -customer -add <itemId> <quantity>   |
+   | Delete from cart                  | ./main -customer -del <Itemid>              |
+   | Purchase                          | ./main -customer -p                         |
+   | Show Cart                         | ./main -customer -show                      |
+   | Clear Cart                        | ./main -customer -clear                     |
+   | Search Items by category          | ./main -customer -s -cat <category>         |
+   | List Categories                   | ./main -customer -l -categories             |
+   | Sort Items by price low to high   | ./main -customer -sort -price -lh           |
+   | Sort Items by price high to low   | ./main -customer -sort -price -hl           |
+   | Compare two items                 | ./main -customer -cmp <id1> <id2>           |
+   | Update Quantity Cart              | ./main -customer -u -quan <id> <quantity>   |
+   | Search items above price x        | ./main -customer -s -a <price>              |
+   | Search items below price x        | ./main -customer -s -b <price>              |
+   | Search by id                      | ./main -customer -s -id <id>                |
+   | Search by name                    | ./main -customer -s -name <name>            |
+   | Show all items                    | ./main -customer -showall                   |
+   +-----------------------------------+---------------------------------------------+
